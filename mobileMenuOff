@@ -1,0 +1,9 @@
+<script>
+(function($){
+    $(window).on("load",function(){
+        $(document).on("click","#mobile-menu-selector .menu-item ._mPS2id-h",function(){
+            $("#mobile-menu-close-btn-selector").trigger("click");
+        });
+    });
+})(jQuery);
+</script>
